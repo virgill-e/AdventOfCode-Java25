@@ -17,13 +17,13 @@ public class Day01 implements Solution {
 
         int solve=0;
 
-        Integer nb1 = null;
-        Integer nb2 = null;
-        while(list1.size() > 0 && list2.size() > 0){
-            nb1 = (list1.size() > 0) ? list1.poll() : null;
-            nb2 = (list2.size() > 0) ? list2.poll() : null;
+        Integer nb1;
+        Integer nb2;
+        while(!list1.isEmpty() && !list2.isEmpty()){
+            nb1 = list1.poll();
+            nb2 = (!list2.isEmpty()) ? list2.poll() : null;
 
-            if(nb1 != null || nb2 != null){
+            if(nb1 != null && nb2 != null){
                 solve+=(Math.abs(nb1 - nb2));
             } else if(nb1 != null){
                 solve+=nb1;
