@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c2e6e16-710c-4027-8da3-b26122a28daf" name="Changes" comment="init Day01 2024">
+    <list default="true" id="8c2e6e16-710c-4027-8da3-b26122a28daf" name="Changes" comment="fix warning">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/virgille/exercice/Day02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Day02.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/virgille/exercice/Day01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/virgille/exercice/Day01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Day01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Day01.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +126,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758999827431</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="day 1 2024">
+      <option name="closed" value="true" />
+      <created>1759053944657</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759053944657</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix warning">
+      <option name="closed" value="true" />
+      <created>1759054144738</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759054144738</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +159,24 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Structure adventOfCode" />
     <MESSAGE value="init Day01 2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="init Day01 2024" />
+    <MESSAGE value="day 1 2024" />
+    <MESSAGE value="fix warning" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix warning" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/virgille/exercice/Day02.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/virgille/exercice/Day02.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
