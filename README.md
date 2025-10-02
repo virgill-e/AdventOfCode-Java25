@@ -1,4 +1,4 @@
-# Advent of Code – Java/Gradle
+# Advent of Code – Java25
 
 Ce dépôt contient mes solutions au défi Advent of Code. L’objectif est de fournir une architecture simple pour implémenter et exécuter les 25 jours de chaque édition.
 
